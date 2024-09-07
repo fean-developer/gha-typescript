@@ -6,6 +6,9 @@ inputs:
   config_file:
     description: 'The configuration file to be processed.'
     required: true
+  prefix:
+    description: 'The configuration file to be processed.'
+    required: true
 
 runs:
   using: 'node12'
