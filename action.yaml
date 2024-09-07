@@ -1,0 +1,12 @@
+name: Processing configuration file
+author: 'Francisco Nascimento'
+description: 'This action processes the configuration file and generates the output file.'
+
+inputs:
+  config_file:
+    description: 'The configuration file to be processed.'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
